@@ -1,0 +1,223 @@
+@charset "ISO-8859-1";
+
+input {
+	
+	margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+input[type="text"] {
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 30px;
+ 	display: inline-block;
+ 	width: 200px;   
+}
+ 	
+input[type="password"] {
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+    height: 30px;
+ 	display: inline-block;
+ 	width: 200px;
+ }
+ 
+ input[type="submit"] button {
+    background-color: #567289;
+    /*color: white;*/
+    padding: 14px 20px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label
+{
+	display: block;
+	margin: 0px 0px 5px 0px;
+	
+	text-transform: uppercase;
+	color: #022c70;
+	font-weight: bold;
+	
+}
+
+.center {
+	
+	display: table;
+	margin: auto;
+	
+	padding: 20px;
+
+}
+
+body {
+	
+	font-size: 20px;
+	color: #1b58ba
+	
+}
+
+a {
+	
+	font-size: 17px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+	color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+select
+{
+	margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 50px;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+th a
+{
+    display:block;
+    font-size: 20px;
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    
+    font-size: 20px;
+    text-decoration: none;
+}
+
+td a {
+    display:block;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+th a:hover {
+    text-decoration: none;
+}
+
+td a.nohover {
+    text-decoration: none;
+}
+
+th {
+    height: 50px;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    
+    color: #000000;
+    background-color: #7aadff;
+}
+
+th label 
+{
+	color: #000000;
+}
+
+th:hover {
+	
+	background-color: #cdddf7;
+}
+
+tr:hover {
+	
+	background-color: #cdddf7;
+}
+
+td a:hover {
+    text-decoration: none;
+}
+
+tr.nohover {
+	
+	background-color: #ffffff;
+	
+}
+
+.account th {
+    height: 30px;
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    
+    color: #000000;
+    background-color: #cdddf7;
+}
+
+.account th:hover {
+	
+	background-color: #ffffff;
+}
+
+
+#top_nav{
+	height: 40px;
+	display: flex;
+  	justify-content: space-between;
+}
+
+#top_nav div{
+	
+	height: 100%;
+	width: 100%;
+	
+	text-align:center;
+	vertical-align: center;
+	
+}
+
+#top_nav div a{
+	
+	display:block;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    text-decoration: none;
+	
+}
+
+#top_nav div:hover{
+	
+	background-color: #cdddf7;
+}

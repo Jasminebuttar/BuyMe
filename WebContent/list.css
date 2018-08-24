@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+th {
+    height: 50px;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    
+    color: #000000;
+    background-color: #7aadff;
+}
+
+th label 
+{
+	color: #000000;
+}
+
+th:hover {
+	
+	background-color: #cdddf7;
+}
+
+tr:hover {
+	
+	background-color: #cdddf7;
+}
+
+td a:hover {
+    text-decoration: none;
+}
+
+tr.nohover {
+	
+	background-color: #ffffff;
+	
+}
+
+th.nohover {
+	
+	background-color: #7aadff;
+	
+}
